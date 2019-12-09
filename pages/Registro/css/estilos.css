@@ -1,0 +1,192 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    background: url(/pages/Login/img/fondologin.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x:hidden;
+    margin: 0px;
+}
+
+
+.contenedor{
+
+    width: 100%;
+    height: 900px;
+    padding: 170px;
+}
+
+
+
+.contenedor .form{
+    background: rgba(0, 0, 0, 0.61);
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    margin-top: 50px;  
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    
+}
+.contenedor .form .form-title{
+    color: white;
+    text-align: center;
+    margin-bottom:30px;
+   
+}
+.contenedor .form-box{
+    background: white;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+ }
+
+
+
+.icon{
+    min-width: 10px;  
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+
+.contenedor .form .btn{
+    background: #fef6fb;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:35%;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.contenedor .form .btn:hover{
+    background: #d6e5fa;
+    cursor: pointer;
+  
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* navbar */
+
+
+
+.navbar {
+    width: 100%;
+     height: 85px;
+     font-size: 15pt;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     
+ 
+ }
+ .navbar-brand{
+   position:absolute;
+     padding: 150px;
+     text-decoration: none;
+ 
+ }
+ .nav-item {
+     position:relative;
+     left: 450px;
+     line-height: 20pt;
+     
+ }
+ .nav-item a{
+     letter-spacing:1pt;
+     margin-right: 18px;
+     text-decoration: none;
+ }
+ 
+ 
+ .nav-itemcar a{
+   
+     position: absolute;
+     left: 1500px;
+     text-decoration: none;
+    
+    
+ }
+
+ .nav-itemuser{
+    position: absolute;
+    left: 1800px;
+    text-decoration: none;
+   
+ }
+/* fin nav */
+
+
+/* PIE DE PAGINA */
+
+
+
+.ft__logo {
+    margin: 0 auto 30px;
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    text-align:center ;
+    
+
+  }
+  .imgafot{
+    width: 220px;
+    height:90px ;
+    padding: 20px;
+    margin: 0 auto 30px;
+    max-width: 615px;
+  }
+  
+  .pie, .push {
+    
+    height: 4em;
+    background: #171F2A;
+    width: 1920px;
+    height: 370px;
+    }
+
+    .pie p{
+
+        color: white;
+       font-size: 13pt;
+      
+      
+      }
+
+
+
+    .padre {
+        /* IMPORTANTE */
+        text-align: center;
+      }
+      
+      .hijo {
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        
+        /* IMPORTANTE */
+        display: inline-block;
+      }
+      /* FIN PIE */

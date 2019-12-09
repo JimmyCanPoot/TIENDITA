@@ -1,0 +1,563 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x:hidden;
+}
+.container{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16pt;
+
+}
+
+
+/* Codigo navbar */
+
+
+.navbar {
+    width: 100%;
+     height: 85px;
+     font-size: 15pt;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     
+ 
+ }
+ .navbar-brand{
+   position:absolute;
+     padding: 150px;
+     text-decoration: none;
+ 
+ }
+ .nav-item {
+     position:relative;
+     left: 450px;
+     line-height: 20pt;
+     
+ }
+ .nav-item a{
+     letter-spacing:1pt;
+     margin-right: 18px;
+     text-decoration: none;
+ }
+ 
+ 
+ .nav-itemcar a{
+   
+     position: absolute;
+     left: 1500px;
+     text-decoration: none;
+    
+    
+ }
+
+ .nav-itemuser{
+    position: absolute;
+    left: 1800px;
+    text-decoration: none;
+   
+ }
+
+
+ 
+ /* ACA EMPIEZA BANNER */ 
+.banner{
+
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image:url(/img/banner.jpg)
+  
+ 
+  
+  }
+
+
+  .banner-content{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(36, 113, 163, .4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  .banner-content h1{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height:1.3em ;
+  
+  }
+  .banner-content a{
+      text-decoration: none;
+      color: white;
+      padding: 9px 20px;
+      border: 1px solid white;
+      text-transform: uppercase;
+      font-size: 1rem;
+      transition: all .3s ease-in-out;
+  }
+  .banner-content a:hover{
+      background-color: #1B2631;
+      color:white;
+  }
+
+/* TERMINA BANNER */
+
+
+/* DISEÑO OFERTAS DEL DIA */
+.secofertas{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+
+  }
+
+  /* TERMINA OFERTAS */
+
+
+  /* DISEÑO CATEGORIAS */
+
+  .secategorias{
+    width: 1200px;
+    height: 900px;
+ 
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+  }
+  .secategorias div a{
+    text-decoration: none;
+  }
+
+  /* TERMINA DISEÑO CATEGORIAS */
+
+
+  /* DISEÑO MAS VENTAS */
+
+  .masventas{
+    width: 1200px;
+    height: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    
+  }
+
+  /* FIN */
+
+
+  /* DISEÑO MARCAS*/
+  .masmarcas{
+    width: 1920px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+ 
+
+  }
+
+  /* FIN MARCAS */
+
+
+  /* BLOQUES DE OFERTAS DIA */
+
+  .ofer1{
+    width: 280px;
+    height:340px;
+    background: gray;
+    display: inline-block;
+    margin:0px;
+    margin-top:20px;
+    border-radius: 10px;
+    
+    
+   
+ 
+  }
+
+  .ofer2{
+    width: 280px;
+    height:340px;
+    background: gray;
+    display: inline-block;
+  
+    margin:5px;
+    margin-top:20px;
+    border-radius: 10px;
+    
+ 
+  }
+  .ofer3{
+    width: 280px;
+    height:340px;
+    background: gray;
+    display: inline-block;
+   
+    margin:5px;
+    margin-top:20px;
+    border-radius: 10px;
+    
+ 
+  }
+
+  .ofer4{
+    width: 280px;
+    height:340px;
+    background: gray;
+    display: inline-block;
+    margin: 5px;
+    margin-top:20px;
+    border-radius: 10px;
+    
+ 
+  }
+  /* FIN BLOQUES OFERTAS */
+
+
+  /* BLOQUES CATEGORIAS  */
+
+  .cat1{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    background-image: url(/img/cat2.png);
+    margin: 15px;
+    opacity: 80%;
+    margin-top:0px;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 20px;
+    text-decoration: none;
+   
+
+  }
+ 
+
+  .cat2{
+    width:350px;
+    height: 350px;
+    background-image: url(/img/cat1.png);
+    border-radius: 200px;
+    margin: 15px;
+    margin-top:0px;
+    opacity: 80%;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+  }
+  .cat3{
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/cat3.png);
+    border-radius: 200px;
+    margin: 15px;
+    margin-top:0px;
+    display: inline-block;
+    float: left;
+    opacity: 80%;
+    margin-left: 40px;
+    margin-right: 20px;
+   
+
+  }
+
+  .cat4{
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/cat4.png);
+    border-radius: 200px;
+    margin: 15px;
+    margin-top:0px;
+    display: inline-block;
+    float: left;
+    opacity: 80%;
+    margin-left: 40px;
+    margin-right: 20px;
+   
+
+  }
+
+  .cat5{
+    width:350px;
+    height: 350px;
+    background-image: url(/img/cat5.png);
+    border-radius: 200px;
+    margin: 15px;
+    margin-top:0px;
+    display: inline-block;
+    float: left;
+    opacity: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+  }
+
+  .cat6{
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/cat6.png);
+    border-radius: 200px;
+    margin: 15px;
+    margin-top:0px;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+   
+
+  }
+/* FIN BLOQUES CAT */
+
+  /* ENLACES A CATEGORIAS TEXTO */
+
+  .cat3  a{
+    display: block;
+    padding: 8rem 4.5rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    text-align: center;
+    line-height: 35px; 
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+
+  .cat4  a{
+    display: block;
+    padding: 9.8rem 4rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+
+  }
+
+  .cat5  a{
+    display: block;
+    padding: 9.8rem 6rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .cat6  a{
+    display: block;
+    padding: 9.6rem .5rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+ 
+
+
+  .cat2  a{
+    display: block;
+    padding: 9rem 4rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  
+
+
+
+  .cat1  a{
+    display: block;
+    padding: 9rem 4.5rem;
+    border-radius: 15px;
+    transition: all 0.5s linear;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+  }
+  /* FIN ENLACES TEXTO */
+
+
+  /* SECCION TEXTO MAS VENDIDO */
+
+
+  .textmasventa{
+    width: 1200px;
+    height: 100px;
+    color: #333;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+  }
+
+  /* FIN TEXT MAS VENDIDO */
+
+
+  /* bloques ventas */
+
+  .masventa1{
+    width: 280px;
+    height:340px;
+    background: gray;
+    display: inline-block;
+    float: left;
+    margin: 70px;
+    margin-top:40px;
+    border-radius: 10px;
+
+
+  }
+
+  .masventa2 {
+    width: 280px;
+    height:340px;
+    background: gray;
+    float: left;
+    margin: 50px;
+    margin-top:40px;
+    border-radius: 10px;
+  }
+  .masventa3 {
+    width: 280px;
+    height:340px;
+    background: gray;
+    float: left;
+    margin: 60px;
+    margin-top:40px;
+    border-radius: 10px;
+  
+  }
+/* FIN BLOQUE VENTAS */
+
+
+/* MARCAS */
+
+.marca1{
+    width: 300px;
+    height:284px;
+    background: gray;
+    float: left;
+    margin: 70px;
+    margin-top:40px;
+    border-radius: 10px;
+
+  }
+
+  .marca2{
+    width: 300px;
+    height:284px;
+    background: gray;
+    float: left;
+    margin: 30px;
+    margin-top:40px;
+    border-radius: 10px;
+
+  }
+  .marca3{
+    width: 300px;
+    height:284px;
+    background: gray;
+    float: left;
+    margin: 30px;
+    margin-top:40px;
+    border-radius: 10px;
+  }
+/* FIN MARCAS */
+
+
+/* PIE */
+
+.ft__logo {
+    margin: 0 auto 30px;
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    text-align:center ;
+    
+
+  }
+  .imgafot{
+    width: 220px;
+    height:90px ;
+    padding: 20px;
+    margin: 0 auto 30px;
+    max-width: 615px;
+    text-decoration-color: white;
+  }
+  .pie p{
+
+  color: white;
+ font-size: 13pt;
+
+
+}
+  
+  .pie, .push {
+    height: 4em;
+    background: #171F2A;
+
+    width: 1920px;
+    height: 370px;
+    }
+
+
+
+    .padre {
+        /* IMPORTANTE */
+        text-align: center;
+      }
+      
+      .hijo {
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        
+        /* IMPORTANTE */
+        display: inline-block;
+      }
+      
+      
+      
+
+
+
+/* FIN PIE */
+ 
+
+
+/* rr */

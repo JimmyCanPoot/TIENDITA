@@ -1,0 +1,199 @@
+
+*{ /*Resetear pagina*/
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+/* nav */
+
+
+.navbar {
+    width: 100%;
+     height: 85px;
+     font-size: 15pt;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     
+ 
+ }
+ .navbar-brand{
+   position:absolute;
+     padding: 150px;
+     text-decoration: none;
+ 
+ }
+ .nav-item {
+     position:relative;
+     left: 450px;
+     line-height: 20pt;
+     
+ }
+ .nav-item a{
+     letter-spacing:1pt;
+     margin-right: 18px;
+     text-decoration: none;
+ }
+ 
+ 
+ .nav-itemcar a{
+   
+     position: absolute;
+     left: 1500px;
+     text-decoration: none;
+    
+    
+ }
+
+ .nav-itemuser{
+    position: absolute;
+    left: 1800px;
+    text-decoration: none;
+   
+ }
+
+
+
+/* FIN NAV */
+
+
+body{
+    background: url(/pages/Login/img/fondologin.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x:hidden;
+}
+
+.contenedor{
+
+    width: 100%;
+    height: 1000px;
+    padding: 170px;
+}
+
+
+.contenedor .form .form-header .form-title{
+    color: white;
+    font-weight:normal;
+    font-family: sans-serif;
+    text-align: center;    
+    padding: 14px 0;
+}
+
+.contenedor .form{
+    background: rgba(0, 0, 0, 0.61);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    
+    
+   
+}
+.contenedor .form .form-label{
+    display: block;
+    color:white;
+    font-size: 16px;
+    position: relative;
+    
+}
+
+.contenedor .form .form-input, .textarea{
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    padding: 12px;
+    margin-bottom:20px;
+    font-size: 14px;
+    color: black;
+}
+
+.contenedor .form .textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    font-family: sans-serif;
+}
+.contenedor .form .btn{
+    width: 100%;
+    color: black;
+    background: yellow;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s;
+}
+.contenedor .form .btn:hover{
+    background: chocolate;
+    color: white;
+}
+
+
+/* PIE */
+
+.ft__logo {
+    margin: 0 auto 30px;
+    max-width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    text-align:center ;
+    
+
+  }
+  .imgafot{
+    width: 220px;
+    height:90px ;
+    padding: 20px;
+    margin: 0 auto 30px;
+    max-width: 615px;
+    text-decoration-color: white;
+  }
+  .pie p{
+
+  color: white;
+ font-size: 13pt;
+
+
+}
+  
+  .pie, .push {
+    height: 4em;
+    background: #171F2A;
+
+    width: 1920px;
+    height: 370px;
+    }
+
+
+
+    .padre {
+        /* IMPORTANTE */
+        text-align: center;
+      }
+      
+      .hijo {
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        
+        /* IMPORTANTE */
+        display: inline-block;
+      }
+      
+      
+      
+
+
+
+/* FIN PIE */
